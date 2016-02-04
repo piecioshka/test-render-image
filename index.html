@@ -1,0 +1,30 @@
+<style>
+    .hide {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+
+    .fly {
+        position: absolute;
+        left: -9999px;
+        top: -9999px;
+    }
+</style>
+
+<img class="hide fly" src="images/test-image.jpeg"/>
+
+<script>
+    function readImageDimensions(label) {
+        return function () {
+            var $image = document.querySelector('img');
+            var width = $image.width;
+            var height = $image.height;
+
+            console.log(label, width, height);
+        };
+    }
+
+    document.addEventListener('DOMContentLoaded', readImageDimensions('document content loaded'));
+    window.addEventListener('load', readImageDimensions('window load'));
+</script>
