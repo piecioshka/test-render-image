@@ -1,8 +1,8 @@
 # test-render-image
 
-> :ledger: Testing rendering image
+:ledger: Testing rendering image
 
-## How it works
+## How it works? 🚀
 
 What happen at webserver when I will hide image by:
 
