@@ -26,3 +26,7 @@ top: -9999px;
 127.0.0.1 - - [04/Feb/2016:09:36:22 +0100] "GET /test-render-image/ HTTP/1.1" 200 735 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36" "-"
 127.0.0.1 - - [04/Feb/2016:09:36:22 +0100] "GET /test-render-image/images/test-image.jpeg HTTP/1.1" 200 17904 "http://localhost/test-render-image/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36" "-"
 ```
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
